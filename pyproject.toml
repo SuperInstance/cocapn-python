@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cocapn"
+version = "0.1.0"
+description = "CoCapn — distributed agent framework. Deadbands, PID, escalation, NMEA. From ESP32 to cloud."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+keywords = ["marine", "autonomy", "deadband", "pid", "nmea", "embedded", "agent"]
+
+[project.urls]
+Repository = "https://github.com/SuperInstance/cocapn-python"
